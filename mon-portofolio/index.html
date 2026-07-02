@@ -1,0 +1,662 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-YM5GMY941R"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'G-YM5GMY941R');
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Justine Combeau | Portfolio</title>
+    <link rel="icon" type="image/x-icon" href="assets/images/favincon.ico">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Open+Sans:wght@300;400;600&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="styles/main.css">
+</head>
+<body>
+    <!-- Barre de navigation -->
+    <header class="header">
+        <div class="container">
+            <a href="#" class="logo">
+                <img src="assets/images/logo.png" alt="Logo PouliNoX" class="logo-img">
+                <span class="logo-text">Justine</span>
+            </a>
+            <nav class="navbar">
+                <a href="#home" class="nav-link">Accueil</a>
+                <a href="#about" class="nav-link">À propos</a>
+                <a href="#skills" class="nav-link">Compétences</a>
+                <a href="#projects" class="nav-link">Projets</a>
+                <a href="#hobbies" class="nav-link">Loisirs</a>
+                <a href="#book" class="nav-link">Livre</a>
+                <a href="#contact" class="nav-link">Contact</a>
+            </nav>
+            <button class="theme-toggle" id="theme-toggle">
+                <i class="fas fa-moon"></i>
+            </button>
+        </div>
+    </header>
+    <!-- Section Hero (style Canva) -->
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="hero-title">Bonjour, je suis <span class="highlight">Justine</span></h1>
+                <p class="hero-subtitle">Développeuse Web & Passionnée de Créativité</p>
+                <p class="hero-description">
+                    Je conçois des sites web élégants et fonctionnels, en alliant technique et design.
+                    Bienvenue dans mon univers où le code rencontre l'harmonie.
+                </p>
+                <div class="cta-buttons">
+                    <a href="#projects" class="btn btn-primary">Voir mes projets</a>
+                    <a href="#contact" class="btn btn-secondary">Me contacter</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <img src="assets/images/medev.png" alt="Justine" class="avatar">
+            </div>
+        </div>
+    </section>
+    <!-- Section À propos -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">À propos de moi</h2>
+                <p class="section-subtitle">Découvrez mon parcours et ma philosophie</p>
+            </div>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>
+                        Passionnée par le développement web depuis plusieurs années, j’ai appris à allier
+                        <strong>rigueur
+                            technique</strong> et <strong>créativité</strong> pour donner vie à des projets uniques.
+                        Mon approche ? Des solutions <strong>propres, accessibles et centrées utilisateur</strong>.
+                    </p>
+                    <p>
+                        En autodidacte, j’ai exploré divers domaines : du <strong>frontend</strong> (HTML/CSS,
+                        JavaScript, React) au <strong>backend</strong> (Firebase, Node.js).
+                        Chaque projet est une nouvelle aventure où j’apprends et me dépasser.
+                    </p>
+                </div>
+                <div class="about-timeline">
+                    <div class="timeline-item">
+                        <div class="timeline-marker">
+                            <i class="fas fa-rocket"></i>
+                        </div>
+                        <div class="timeline-content">
+                            <h3>2026</h3>
+                            <p>Création de "Le Chat Ivre", un site vitrine pour un bar à vin.</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-marker">
+                            <i class="fas fa-laptop-code"></i>
+                        </div>
+                        <div class="timeline-content">
+                            <h3>2025</h3>
+                            <p>Développement d'un site de rectte familliale pour ma famille avec les recettes de maman
+                            </p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-marker">
+                            <i class="fas fa-laptop-code"></i>
+                        </div>
+                        <div class="timeline-content">
+                            <h3>2025</h3>
+                            <p>Développement du QCM BNSSA avec 180 questions et correction automatique.</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-marker">
+                            <i class="fas fa-graduation-cap"></i>
+                        </div>
+                        <div class="timeline-content">
+                            <h3>2024</h3>
+                            <p>Formation BNSSA pour surveillance de baignade</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-marker">
+                            <i class="fas fa-code"></i>
+                        </div>
+                        <div class="timeline-content">
+                            <h3>2023</h3>
+                            <p>Début du dev : BTS SIO à Périgueux (24)</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Section Compétences -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Mes compétences</h2>
+            </div>
+            <!-- Catégorie : Hard Skills -->
+            <div class="skills-category">
+                <h3 class="category-title"><i class="fas fa-cog"></i> Hard Skills</h3>
+                <div class="skills-list">
+                    <div class="skill-item">
+                        <div class="skill-header">
+                            <span class="skill-name">Gestion de bases de données</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 80%;"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-header">
+                            <span class="skill-name">Développement</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 90%;"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-header">
+                            <span class="skill-name">Tests et débogages</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 50%;"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-header">
+                            <span class="skill-name">Utilisation d'outils IA</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 70%;"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-header">
+                            <span class="skill-name">Rédaction de rapports et documentations</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 80%;"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-header">
+                            <span class="skill-name">Créer une identité de marque (DA harmonieux)</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 70%;"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Catégorie : Langages -->
+        <div class="skills-category">
+            <h3 class="category-title"><i class="fas fa-code"></i> Langages</h3>
+            <div class="skills-list">
+                <div class="skill-item">
+                    <div class="skill-header">
+                        <span class="skill-name">HTML5/CSS3</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-progress" style="width: 90%;"></div>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-header">
+                        <span class="skill-name">PHP</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-progress" style="width: 70%;"></div>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-header">
+                        <span class="skill-name">SQL</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-progress" style="width: 80%;"></div>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-header">
+                        <span class="skill-name">Java</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-progress" style="width: 70%;"></div>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-header">
+                        <span class="skill-name">JSX</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-progress" style="width: 50%;"></div>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-header">
+                        <span class="skill-name">Android</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-progress" style="width: 60%;"></div>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-header">
+                        <span class="skill-name">React</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-progress" style="width: 50%;"></div>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-header">
+                        <span class="skill-name">Tailwind CSS</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-progress" style="width: 90%;"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Catégorie : Outils -->
+        <div class="skills-category">
+            <h3 class="category-title"><i class="fas fa-tools"></i> Outils</h3>
+            <div class="skills-list">
+                <div class="skill-item">
+                    <div class="skill-header">
+                        <span class="skill-name">Canva</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-progress" style="width: 80%;"></div>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-header">
+                        <span class="skill-name">CapCut</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-progress" style="width: 70%;"></div>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-header">
+                        <span class="skill-name">Adobe</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-progress" style="width: 40%;"></div>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-header">
+                        <span class="skill-name">Visual Studio Code</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-progress" style="width: 90%;"></div>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-header">
+                        <span class="skill-name">Suite Office</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-progress" style="width: 70%;"></div>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-header">
+                        <span class="skill-name">Suite Google</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-progress" style="width: 80%;"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Catégorie : Soft Skills -->
+        <div class="skills-category">
+            <h3 class="category-title"><i class="fas fa-heart"></i> Soft Skills</h3>
+            <div class="skills-list">
+                <div class="skill-item">
+                    <div class="skill-header">
+                        <span class="skill-name">Autodidacte</span>
+                        <div class="stars">
+                        </div>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-progress" style="width: 60%;"></div>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-header">
+                        <span class="skill-name">Ponctuelle</span>
+                        <div class="stars">
+                        </div>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-progress" style="width: 90%;"></div>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-header">
+                        <span class="skill-name">Organisée</span>
+                        <div class="stars">
+                        </div>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-progress" style="width: 80%;"></div>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-header">
+                        <span class="skill-name">Adaptable</span>
+                        <div class="stars">
+                        </div>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-progress" style="width: 80%;"></div>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-header">
+                        <span class="skill-name">Esprit d'équipe</span>
+                        <div class="stars">
+                        </div>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-progress" style="width: 70%;"></div>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-header">
+                        <span class="skill-name">Rigoureuse</span>
+                        <div class="stars">
+                        </div>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-progress" style="width: 80%;"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Section Projets -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Mes projets</h2>
+                <p class="section-subtitle">Une sélection de mes réalisations</p>
+            </div>
+            <div class="projects-grid">
+                <!-- Projet 1 -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="assets/images/bar.png" alt="Le Chat Ivre">
+                    </div>
+                    <div class="project-content">
+                        <h3>Le Chat Ivre</h3>
+                        <p>Site one-page pour un bar à vin parisien avec menu interactif, galerie et
+                            réservation.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">HTML/CSS</span>
+                            <span class="tech-tag">JavaScript</span>
+                            <span class="tech-tag">Google Maps API</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="project-link"><i class="fab fa-github"></i> Code</a>
+                            <a href="https://le-chat-ivre.netlify.app/" class="project-link"><i
+                                    class="fas fa-external-link-alt"></i> Site</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Projet 2 -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="assets/images/bnssac.png" alt="QCM BNSSA">
+                    </div>
+                    <div class="project-content">
+                        <h3>QCM BNSSA</h3>
+                        <p>Plateforme d'entraînement au BNSSA avec 189 questions, timer et correction
+                            automatique.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">HTML/CSS</span>
+                            <span class="tech-tag">JavaScript</span>
+                            <span class="tech-tag">JSON</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="project-link"><i class="fab fa-github"></i> Code</a>
+                            <a href="https://qcm-bnssa-trainer.netlify.app/" class="project-link"><i
+                                    class="fas fa-external-link-alt"></i> Site</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Projet 3 -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="assets/images/recettes.png" alt="Les recettes de maman">
+                    </div>
+                    <div class="project-content">
+                        <h3>Les recettes de maman</h3>
+                        <p>Base de données de recettes familiales avec formulaire d'ajout et recherche (secret
+                            de
+                            famille).</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">HTML/CSS</span>
+                            <span class="tech-tag">JavaScript</span>
+                            <span class="tech-tag">JSON</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="project-link"><i class="fab fa-github"></i> Code</a>
+                            <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i> Site</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Projet 4 -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="assets/images/mon-portofolio.png" alt="Mon Portofolio">
+                    </div>
+                    <div class="project-content">
+                        <h3>Mon Portofolio</h3>
+                        <p>Site web pour présenter mon parcours, projets et mes loisirs</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">HTML/CSS</span>
+                            <span class="tech-tag">JavaScript</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="project-link"><i class="fab fa-github"></i> Code</a>
+                            <a href="https://monportofolio-justinecombeau.netlify.app/" class="project-link"><i
+                                    class="fas fa-external-link-alt"></i> Site</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Projet 5 -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="assets/images/agenda.png" alt="Agenda de Justine">
+                    </div>
+                    <div class="project-content">
+                        <h3>Mon Agenda</h3>
+                        <p>Agenda multi-plateforme</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">HTML/CSS</span>
+                            <span class="tech-tag">JavaScript</span>
+                            <span class="tech-tag">JSON</span>
+                            <span class="tech-tag">JSX</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="project-link"><i class="fab fa-github"></i> Code</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Section Loisirs & Inspiration -->
+    <section id="hobbies" class="hobbies">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Loisirs & Inspiration</h2>
+                <p class="section-subtitle">Ce qui me passionne au quotidien</p>
+            </div>
+            <div class="hobbies-grid">
+                <!-- Cadre Loisirs -->
+                <div class="hobby-card">
+                    <h3><i class="fas fa-palette"></i> Mes Loisirs</h3>
+                    <p class="hobby-intro">
+                        Quand je ne code pas, je me ressource à travers des activités qui stimulent ma créativité.
+                        <strong>L’harmonie</strong> est si importante pour moi que je personnalise même mes dossiers
+                        Windows avec des icônes générées par IA !
+                    </p>
+                    <div class="hobby-images">
+                        <div class="hobby-image-item">
+                            <img src="assets/images/sport.png" alt="Sport">
+                            <br><span>Sport</span>
+                        </div>
+                        <div class="hobby-image-item">
+                            <img src="assets/images/jeux-video.png" alt="Jeux Vidéo">
+                            <br><span>Jeux Vidéo</span>
+                        </div>
+                        <div class="hobby-image-item">
+                            <img src="assets/images/lecture.png" alt="Lecture">
+                            <br><span>Lecture</span>
+                        </div>
+                        <div class="hobby-image-item">
+                            <img src="assets/images/ecriture.png" alt="Écriture">
+                            <br><span>Écriture</span>
+                        </div>
+                        <div class="hobby-image-item">
+                            <img src="assets/images/musique.png" alt="Musique">
+                            <br><span>Musique</span>
+                        </div>
+                        <div class="hobby-image-item">
+                            <img src="assets/images/dessin.png" alt="Dessin">
+                            <br><span>Dessin</span>
+                        </div>
+                    </div>
+                </div>
+                <!-- Cadre Inspiration -->
+                <div class="hobby-card">
+                    <h3><i class="fas fa-heart"></i> Mes Inspirations</h3>
+                    <p class="hobby-intro">
+                        Ma famille est ma plus grande source de motivation. Mon conjoint et mon chat sont mes piliers au
+                        quotidien.
+                    </p>
+                    <div class="inspiration-images">
+                        <div class="inspiration-item">
+                            <img src="assets/images/conjoint.png" alt="Mon conjoint">
+                            <br><span>Mon conjoint</span>
+                        </div>
+                        <div class="inspiration-item">
+                            <img src="assets/images/chat.png" alt="Mon chat">
+                            <br><span>Mon chat</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Section Mon Livre -->
+    <section id="book" class="book-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Mon Livre</h2>
+                <p class="section-subtitle">Un projet d'écriture en cours</p>
+            </div>
+            <div class="book-content">
+                <!-- Image de la couverture (à gauche) -->
+                <div class="book-cover">
+                    <img src="assets/images/couverture.png" alt="Couverture du livre de PouliNoX">
+                </div>
+                <!-- Texte de 4ème de couverture (à droite) -->
+                <div class="book-description">
+                    <p>
+                        <strong>Séléna ~ Captive de la tempête ~ </strong>
+                    </p>
+                    <p>
+                        La magie de Séléna est un don. Son silence, une malédiction.<br>
+                        <br>
+                        Pourtant, elle a cru, un temps, pouvoir respirer. Jusqu’à ce que deux loups-garous surgissent
+                        dans l’ombre obsédés par une mort qui les hante. Une vérité que Séléna ne peut avouer.
+                        Très vite, les liens se créent. Les rires, les soirées, les confidences… et quelque chose de
+                        plus profond encore...<br>
+                        <br>
+                        Mais peut-on construire une histoire sur un mensonge ? Tandis que les sentiments s’intensifient,
+                        les soupçons grandissent. Et quand la vérité éclatera, elle pourrait bien briser bien plus que
+                        des cœurs. Entre magie, loyauté et trahison, chacun devra choisir son camp.
+                    </p>
+                    <p>
+                        <em>"Un livre écrit avec passion, imagination et amour."</em>
+                    </p>
+                    <div class="book-meta">
+                        <p><strong>Genre :</strong> Romance dramatique</p>
+                        <p><strong>Statut :</strong> En cours d'écriture (Prévu pour 2027)</p>
+                    </div>
+                    <div class="book-cta">
+                        <a href="#" class="btn btn-primary">En savoir plus</a>
+                        <a href="#" class="btn btn-secondary">Me contacter pour en discuter</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Section Contact -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Contactez-moi</h2>
+                <p class="section-subtitle">On discute ?</p>
+            </div>
+            <div class="contact-content">
+                <form class="contact-form" id="contact-form" action="https://formspree.io/f/maqvzaoj" method="POST">
+                    <!-- Tes champs existants -->
+                    <div class="form-group">
+                        <label for="name">Nom</label>
+                        <input type="text" id="name" name="name" placeholder="Votre nom" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" placeholder="Votre email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" placeholder="Votre message" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Envoyer</button>
+                </form>
+                <div class="contact-info">
+                    <h3>Mes réseaux</h3>
+                    <div class="social-links">
+                        <a href="https://github.com/justinecombeaubts" class="social-link"><i class="fab fa-github"></i>
+                            GitHub</a>
+                        <a href="https://www.linkedin.com/in/justine-combeau/" class="social-link"><i
+                                class="fab fa-linkedin"></i> LinkedIn</a>
+                        <a href="https://www.tiktok.com/@tsukihana.ia?lang=fr" class="social-link"><i
+                                class="fab fa-tiktok"></i> Tik Tok</a>
+                        <a href="justine.combeau.bts@gmail.com" class="social-link"><i class="fas fa-envelope"></i>
+                            Email</a>
+                    </div>
+                    <div class="location">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <p>Paris, France</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Pied de page -->
+    <footer class="footer">
+        <div class="container">
+            <p>© 2026 Justine Combeau. Tous droits réservés.</p>
+            <p>Made with <i class="fas fa-heart"></i> and code</p>
+        </div>
+    </footer>
+    <script src="scripts/main.js"></script>
+</body>
+</html>
