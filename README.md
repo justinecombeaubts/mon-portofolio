@@ -2,7 +2,7 @@
 
 Bienvenue sur mon **portfolio personnel** ! Ce projet met en avant mes compétences en développement web, mes projets, mes loisirs et mon livre.
 
-🔗 **[Voir le portfolio en ligne](https://justinecombeaubts.github.io/mon-portofolio/](https://justinecombeau-portofolio.netlify.app/))** *(à adapter si déployé ailleurs)*
+🔗 **[Voir le portfolio en ligne](https://justinecombeau-portofolio.netlify.app/)** *(à adapter si déployé ailleurs)*
 
 ---
 
